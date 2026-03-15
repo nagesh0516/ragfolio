@@ -8,4 +8,7 @@ uv project: chromadb, fastembed, requests. Minimal package for use by the backen
 uv sync
 ```
 
+## Create Embeddings
+
+
 Package is `rag` (see `rag/rag/__init__.py`). Extend with RAG logic and call from the backend’s `rag_query` module.
