@@ -19,5 +19,5 @@ dist/
 project/frontend/dist/
 
 # ChromaDB and other data
-rag/chroma_db/
+
 
