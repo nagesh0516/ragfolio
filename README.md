@@ -35,7 +35,7 @@ VITE_API_BASE_URL=http://localhost:8000/api
 ```
 
 ### 2. Ingest Resume Data
-This converts your `rag/resume.txt` into a searchable vector database.
+This converts everything in `rag/input-data/` into a searchable vector database (recommended: split your info across multiple files, not just a single resume).
 ```bash
 uv run rag/create-embeddings.py
 ```
